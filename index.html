@@ -1,1 +1,105 @@
-wip
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Tracker ~ ishaanbedi</title>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <link rel="stylesheet" href="./css/app.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/Cov.png">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+    <main class="container">
+        <div>
+            <hgroup>
+                <h1><em>CovTrack</em>🦠</h1>
+                <h3>Covid Tracker</h3>
+            </hgroup>
+            <p id="date">Date: </p>
+            <article>
+                <h2 >Global Data 🌏</h2>
+                <ul>
+                    <li class="new-confirmed"></li>
+                    <li class="total-confirmed"></li>
+                    <li class="new-deaths"></li>
+                    <li class="total-deaths"></li>
+                </ul>
+            </article>
+            <article>
+                <h2>Indian Data 🇮🇳</h2>
+                <ul>
+                    <li class="india-new-confirmed"></li>
+                    <li class="india-total-confirmed"></li>
+                    <li class="india-new-deaths"></li>
+                    <li class="india-total-deaths"></li>
+                </ul>
+            </article>
+        </div>
+
+
+        <details id="details-grid-1">
+            <summary id="summary-1">Search for a state</summary>
+            <div class="grid" id="grid-1">
+                <div class="autocomplete" style="cursor: pointer;">
+                    <label for="myInput2" style="margin-top: 20px;">Type & choose the state name and click the
+                        <kbd>GO</kbd> button: </label>
+                    <input id="myInput2" class="input2" type="text" name="myCountry" placeholder="Eg: Punjab">
+                </div>
+            </div>
+            <button class="button-state">GO</button>
+
+            <article id="state-div">
+                <strong>
+                    <h2 id="state-name-para">State Data</h2>
+                </strong>
+                <ul>
+                    <li class="state-total-confirmed"></li>
+                    <li class="state-total-deaths"></li>
+                    <li class="state-total-recovered"></li>
+                </ul>
+            </article>
+        </details>
+
+        <details id="details-grid-2">
+            <summary id="summary-2">Search for a country</summary>
+            <div class="grid" id="grid-2">
+                <div class="autocomplete" style="cursor: pointer;">
+                    <label for="myInput1" style="margin-top: 20px;">Type & choose the country name and click the
+                        <kbd>GO</kbd> button: </label>
+                    <input id="myInput1" class="input1" type="text" name="myCountry"
+                        placeholder="Eg: United States Of America">
+                </div>
+            </div>
+            <button class="button-country">GO</button>
+
+            <article id="country-div">
+                <strong>
+                    <h2 id="country-name-para">Countries Data</h2>
+                </strong>
+                <ul>
+                    <li class="local-new-confirmed"></li>
+                    <li class="local-total-confirmed"></li>
+                    <li class="local-new-deaths"></li>
+                    <li class="local-total-deaths"></li>
+                </ul>
+            </article>
+        </details>
+
+
+    </main>
+    <footer class="container" style="text-align:center;">
+        <p>Created by <a href="https://www.ishaanbedi.me" target="_"><cite>Ishaan Bedi</cite></a></p>
+    </footer>
+</body>
+<script src="./js/app.js"></script>
+
+</html>
