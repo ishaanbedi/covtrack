@@ -2,7 +2,7 @@
 
 Welcome to the repository of CovTrack - The Covid Tracker
 
-Check out CovTrack at [covtrack.ishaanbedi.me](covtrack.ishaanbedi.me)
+Check out CovTrack at [https://covtrack.ishaanbedi.me](covtrack.ishaanbedi.me)
 
 CovTrack is a covid tracker, showing details like covid cases, deaths, recoveries, and more analytics around the globe. A visitor can even check analytics for a specific Indian state or a particular country. 
 
