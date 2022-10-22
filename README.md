@@ -1,40 +1,77 @@
 # CovTrack
 
-<div align="center"> <img align="center" alt="dschackfest" src="https://user-images.githubusercontent.com/97526225/194758000-e3c8a909-57c4-4806-8ba4-ed70492b0930.jpeg" width="50%" ></div>
+Welcome to the repository of CovTrack - The Covid Tracker
 
-## Welcome to the repository of CovTrack - The Covid Tracker
+Check out CovTrack at https://covtrack.vercel.app/
 
-### Check out CovTrack at [here](https://covtrack.vercel.app/).
+CovTrack is a covid tracker, showing details like covid cases, deaths, recoveries, and more analytics around the globe. A visitor can even check analytics for a specific Indian state or a particular country.
 
-### About
-
-#### CovTrack is a covid tracker, showing details like covid cases, deaths, recoveries, and more analytics around the globe. 
-<br>
-<div>
-  
-![pic1](https://user-images.githubusercontent.com/84179065/196944140-86f1006b-7237-4a21-8e06-c43960d99457.JPG)
-![pic2](https://user-images.githubusercontent.com/84179065/196944178-8549a899-4259-4ecd-9b7f-0230e157f023.JPG)
-  
-</div>
-
-#### A visitor can even check analytics for a specific Indian state or a particular country. 
-
-![pic3](https://user-images.githubusercontent.com/84179065/196944197-aa97fd10-98b9-40e6-afc9-c18dd3310918.JPG)
-![pic4](https://user-images.githubusercontent.com/84179065/196944231-621bc870-ed99-49ea-8724-0091b157080f.JPG)
+CovTrack is built using HTML, Pico.CSS, JavaScript & Axios & is hosted at Vercel.
 
 
-## Technology Stack used:
+## Usage/Features
 
-<img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/> <img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/> <img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/><img src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+  - Global and Indian data.
+  - Confirmed and total , cases and death count of each country
+  - Data availalbe for all 29 Indian States and 8 Union Territories
 
 
-- **Frontend**: HTML5, Pico.CSS, JavaScript & Axios
-- **Version Control**: Git and GitHub
-- **Hosting**: Vercel
-<!-- CovTrack is built using HTML, Pico.CSS, JavaScript & Axios & is hosted at Vercel. -->
 
-<!-- ## Contributing -->
-## Want to Contribute?
+## Acknowledgements
+-   Data API provided by [covid19api](https://covid19api.com/)
+-   Designed with [Pico.CSS](https://picocss.com/)
+-   Covtrack is deployed and hosted at [Vercel](https://vercel.com/)
+-   This project is open-sourced at [the github repository here](https://github.com/ishaanbedi/covtrack), pull requests and issues are welcomed!
 
-- Take a look at [`contributing guidelines`](contributing.md) if you're interested in contributing!
+
+
+## Live Demo
+Live demo for this project can be found on the following Cloud Platform :
+
+
+<div align="center">
+    <a href="https://covtrack.vercel.app/" width = "20%"><img alt="Vercel deployement" src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"></a>
+ </div> 
+</br>
+
+
+
+## Screenshots
+### 1. Global Data
+![Screenshot 1](https://user-images.githubusercontent.com/97287831/196813950-0e48e913-daa7-4110-a140-fb81161cf261.png)
+
+### 2. Indian Data
+![Screenshot 2](https://user-images.githubusercontent.com/97287831/196814584-02b6b658-de6e-46bf-a760-429d7e92e618.png)
+
+### 3. Data for a State/UT
+![Screenshot 3](https://user-images.githubusercontent.com/97287831/196814776-2d078a90-01d6-4fa3-a3a9-cc7a23125b45.png)
+
+### 4. Data for a country
+![Screenshot 4](https://user-images.githubusercontent.com/97287831/196814844-5e68ca4e-efce-4193-a424-bdab6dfce675.png)
+
+
+
+
+
+
+
+
+## Feedback
+
+If you have any feedback, please reach out to me at hi@ishaanbedi.in
+
+
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Feel free to check the [issues](https://github.com/ishaanbedi/covtrack/issues) page
+
+
+## Contributors
+
+<a href="https://github.com/ishaanbedi/covtrack/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ishaanbedi/covtrack" />
+</a>
