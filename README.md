@@ -75,3 +75,6 @@ Feel free to check the [issues](https://github.com/ishaanbedi/covtrack/issues) p
 <a href="https://github.com/ishaanbedi/covtrack/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ishaanbedi/covtrack" />
 </a>
+
+### 27/10/2022
+This project is finally archived. A big Thanks to all the contributors ! (more details about archiving can be found [here](https://docs.github.com/en/repositories/archiving-a-github-repository/archiving-repositories))
